@@ -2,7 +2,8 @@
 
 print ('hello git!')
 for i in range (10):
-    print ('hello github!')
+    if i%2 ==0:
+    print ('hello, python!')
 
 
 
