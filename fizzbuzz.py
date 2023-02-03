@@ -5,4 +5,8 @@ print(user_num)
 
 #iteration
 for i in range(1, user_num):
-    print(f'{i}')
+    if i%3 == 0:
+        print('fizz')
+    else: 
+        print(f'{i}')
+
