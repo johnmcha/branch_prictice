@@ -7,6 +7,8 @@ print(user_num)
 for i in range(1, user_num):
     if i%3 == 0:
         print('fizz')
+    if i%5 == 0:
+        print('buzz')
     else: 
         print(f'{i}')
 
