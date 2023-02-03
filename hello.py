@@ -1,4 +1,8 @@
-mport requests
 
-def get_response():
-    return requests.get('https://www.google.co.kr/').status_code
+
+print ('hello git!')
+for i in range (10):
+    print ('hello github!')
+
+
+
